@@ -10,7 +10,30 @@
         <label for="fname">first name:</label>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">last name:</label>
-        <input type="text" id="lname" name="lname">
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone" name="phone"><br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="genderID">Gender:</label><br>
+        <label for="MaleID">Male</label>
+        <input type="radio" id="MaleID" name="gender" value="Male">
+
+        <label for="FemaleID">Female</label>
+        <input type="radio" id="FemaleID" name="gender" value="Female">
+
+        <label for="OtherID">Other</label>
+        <input type="radio" id="OtherID" name="gender" value="Other"><br>
+
+        <label for="cars">Age:</label><br>
+          <select id="ageID" name="age">
+            <option value="under18"selected=>under 18</option>
+            <option value="above18">over 18</option>
+          </select>
+        
     </fieldset>
   </form>
 
@@ -18,23 +41,25 @@
     <fieldset>
       <legend>My Availability</legend>
       <h3><strong>Days Available:</strong></h3>
-        <input type="checkbox" id="SundayID" name="SundayName" value="Sunday">
-        <label for="SundayID">Sunday</label><br>
-        <input type="checkbox" id="MondayID" name="MondayName" value="Monday">
-        <label for="MondayID">Monday</label><br>
-        <input type="checkbox" id="TuesdayID" name="TuesdayName" value="Tuesday">
-        <label for="TuesdayID">Tuesday</label><br>
-        <input type="checkbox" id="WednesdayID" name="WednesdayName" value="Wednesday">
-        <label for="WednesdayID">Wednesday</label><br>
-        <input type="checkbox" id="ThursdayID" name="ThursdayName" value="Thursday">
-        <label for="ThursdayID">Thursday</label><br>
-        <input type="checkbox" id="FridayID" name="FridayName" value="Friday">
-        <label for="FridayID">Friday</label><br>
-        <input type="checkbox" id="SaturdayID" name="SaturdayName" value="Saturday">
-        <label for="SaturdayID">Saturday</label><br>
+      <label for="SundayID">Sunday</label>
+        <input type="checkbox" id="SundayID" name="SundayName" value="Sunday"><br>
+        <label for="MondayID">Monday</label>
+        <input type="checkbox" id="MondayID" name="MondayName" value="Monday"><br>
+        <label for="TuesdayID">Tuesday</label>
+        <input type="checkbox" id="TuesdayID" name="TuesdayName" value="Tuesday"><br>
+        <label for="WednesdayID">Wednesday</label>
+        <input type="checkbox" id="WednesdayID" name="WednesdayName" value="Wednesday"><br>
+        <label for="ThursdayID">Thursday</label>
+        <input type="checkbox" id="ThursdayID" name="ThursdayName" value="Thursday"><br>
+        <label for="FridayID">Friday</label>
+        <input type="checkbox" id="FridayID" name="FridayName" value="Friday"><br>
+        <label for="SaturdayID">Saturday</label>
+        <input type="checkbox" id="SaturdayID" name="SaturdayName" value="Saturday"><br>
       <h3><strong>Comments</strong></h3>
+        <textarea name="message"rows="2.5"cols="16"The cat was playing in the garden.></textarea>    
+        <br><br>
     </fieldset>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit Query">
   </form>
 
   </body>
